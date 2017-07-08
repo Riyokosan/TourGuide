@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!--Categories name-->
+    <string name="category_visit">Visit</string>
+    <string name="category_drink">Drink</string>
+    <string name="category_eat">Eat</string>
+    <string name="category_sleep">Sleep</string>
+
+</resources>
