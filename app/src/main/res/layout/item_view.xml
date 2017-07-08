@@ -31,42 +31,33 @@
 
             <TextView
                 android:id="@+id/location_name"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:gravity="bottom"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textStyle="bold"
+                style="@style/Title"
                 tools:text="Big Ben" />
 
             <TextView
                 android:id="@+id/address"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
+                style="@style/Description"
                 android:layout_below="@id/location_name"
-                android:gravity="top"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
                 tools:text="Parliament Square, Westminster, St Margaret Street, London SW1A 0AA" />
 
             <TextView
                 android:id="@+id/opening_time"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="22dp"
                 android:layout_below="@id/address"
                 android:gravity="top"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                tools:text="Opening time: 6:00 - 20:00" />
+                android:textColor="@android:color/black"
+                tools:text="Opening times: 6:00 - 20:00" />
 
             <TextView
                 android:id="@+id/website"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="22dp"
                 android:layout_below="@id/opening_time"
                 android:gravity="top"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 tools:text="http://www.londontown.com/LondonInformation/Sights_and_Attractions/Big_Ben/5b15/" />
 
         </RelativeLayout>
