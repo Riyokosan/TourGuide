@@ -1,34 +1,44 @@
 package com.example.android.tourguide;
 
 /**
- * Created by Ryoko on 08/07/2017.
+ * Created by Ryoko on 09/07/2017.
  */
 
-public class View {
+public class Location {
 
     /**
      * Constant value that represents no image was provided for this place
      */
     private static final int NO_IMAGE_PROVIDED = -1;
-    /** Name of the place */
+    /**
+     * Name of the place
+     */
     private String mLocationName;
-    /** Address of the place */
+    /**
+     * Address of the place
+     */
     private String mLocationAddress;
-    /** Opening time of the place */
+    /**
+     * Opening time of the place
+     */
     private String mLocationOpeningTime;
-    /** Description of the place */
+    /**
+     * Description of the place
+     */
     private String mLocationWebsite;
-    /** Image resource ID for the word */
-    private int mImageResourceId = NO_IMAGE_PROVIDED ;
+    /**
+     * Image resource ID for the word
+     */
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     /**
      * Create a new View object.
      *
-     * @param locationName is the name of the location
+     * @param locationName    is the name of the location
      * @param locationWebsite is the description of the specified location
      * @param imageResourceId is the drawable resource ID for the image associated with the place
      */
-    public View(String locationName, String locationAddress, String locationOpeningTime, String locationWebsite, int imageResourceId) {
+    public Location(String locationName, String locationAddress, String locationOpeningTime, String locationWebsite, int imageResourceId) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
         mLocationOpeningTime = locationOpeningTime;
@@ -44,7 +54,7 @@ public class View {
      * @param locationOpeningTime is when the place is opened/when you can check-in or check-out
      * @param locationWebsite     is the description of the specified location
      */
-    public View(String locationName, String locationAddress, String locationOpeningTime, String locationWebsite) {
+    public Location(String locationName, String locationAddress, String locationOpeningTime, String locationWebsite) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
         mLocationOpeningTime = locationOpeningTime;

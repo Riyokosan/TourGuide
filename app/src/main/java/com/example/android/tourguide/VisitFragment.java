@@ -48,6 +48,5 @@ public class VisitFragment extends Fragment {
         listView.setAdapter(adapter);
 
         return rootView;
-
     }
 }
