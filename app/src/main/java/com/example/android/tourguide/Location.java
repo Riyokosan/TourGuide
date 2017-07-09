@@ -5,7 +5,7 @@ package com.example.android.tourguide;
  */
 
 public class Location {
-
+    
     /**
      * Constant value that represents no image was provided for this place
      */
