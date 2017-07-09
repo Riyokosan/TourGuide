@@ -25,12 +25,13 @@ public class VisitFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list_view, container, false);
-
-
+        
         // Create a list of Locations
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(R.string.visit1_name, R.string.visit1_address, R.string.visit1_opening_time, R.string.visit1_website, R.drawable.big_ben));
-        locations.add(new Location(R.string.visit2_name, R.string.visit2_address, R.string.visit2_opening_time, R.string.visit2_website, R.drawable.british_museum));
+        locations.add(new Location(R.string.visit1_name, R.string.visit1_address,
+                R.string.visit1_opening_time, R.string.visit1_website, R.drawable.big_ben));
+        locations.add(new Location(R.string.visit2_name, R.string.visit2_address,
+                R.string.visit2_opening_time, R.string.visit2_website, R.drawable.british_museum));
 
         // Create an {@link LocationAdapter}, whose data source is a list of {@link Location}s. The
         // adapter knows how to create list items for each item in the list.
