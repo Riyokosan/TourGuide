@@ -1,6 +1,5 @@
 package com.example.android.tourguide;
 
-import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -25,9 +24,9 @@ public class VisitFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list_view, container, false);
-        
+
         // Create a list of Locations
-        ArrayList<Location> locations = new ArrayList<Location>();
+        ArrayList<Location> locations = new ArrayList<>();
         locations.add(new Location(R.string.visit1_name, R.string.visit1_address,
                 R.string.visit1_opening_time, R.string.visit1_website, R.drawable.big_ben));
         locations.add(new Location(R.string.visit2_name, R.string.visit2_address,
