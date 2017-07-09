@@ -14,8 +14,8 @@
     <string name="visit1_name">Big Ben</string>
     <string name="visit1_address">Parliament Square, Westminster, St Margaret Street, London SW1A 0AA</string>
     <string name="visit1_opening_time">Tours Mon to Fri 9.15, 10.15, 11.15 and 14.15</string>
-    <string name="visit1_website">http://www.londontown.com/LondonInformation/Sights_and_Attractions/Big_Ben/5b15/</string>
-    <!--Location  2-->
+    <string name="visit1_website">http://www.londontown.com/</string>
+    <!--Location  2-->LondonI
     <string name="visit2_name">British Museum</string>
     <string name="visit2_address">Great Russell Street, Bloomsbury, London WC1B 3DG</string>
     <string name="visit2_opening_time">Open daily 10.00&#8211;17.30 - Fridays until 20.30</string>

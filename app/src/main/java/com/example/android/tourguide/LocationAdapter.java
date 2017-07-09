@@ -31,15 +31,15 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         locationName.setText(currentWord.getLocationName());
 
-        TextView locationAddress = (TextView) listItemView.findViewById(R.id.location_address);
+        TextView locationAddress = (TextView) listItemView.findViewById(R.id.address);
 
         locationAddress.setText(currentWord.getLocationAddress());
 
-        TextView locationOpeningTime = (TextView) listItemView.findViewById(R.id.location_opening_time);
+        TextView locationOpeningTime = (TextView) listItemView.findViewById(R.id.opening_time);
 
         locationOpeningTime.setText(currentWord.getLocationOpeningTime());
 
-        TextView locationWebsite = (TextView) listItemView.findViewById(R.id.location_website);
+        TextView locationWebsite = (TextView) listItemView.findViewById(R.id.website);
 
         locationWebsite.setText(currentWord.getLocationWebsite());
 
