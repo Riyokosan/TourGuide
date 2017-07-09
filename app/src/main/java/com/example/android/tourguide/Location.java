@@ -13,19 +13,19 @@ public class Location {
     /**
      * Name of the place
      */
-    private String mLocationName;
+    private int mLocationName;
     /**
      * Address of the place
      */
-    private String mLocationAddress;
+    private int mLocationAddress;
     /**
      * Opening time of the place
      */
-    private String mLocationOpeningTime;
+    private int mLocationOpeningTime;
     /**
      * Description of the place
      */
-    private String mLocationWebsite;
+    private int mLocationWebsite;
     /**
      * Image resource ID for the word
      */
@@ -38,7 +38,7 @@ public class Location {
      * @param locationWebsite is the description of the specified location
      * @param imageResourceId is the drawable resource ID for the image associated with the place
      */
-    public Location(String locationName, String locationAddress, String locationOpeningTime, String locationWebsite, int imageResourceId) {
+    public Location(int locationName, int locationAddress, int locationOpeningTime, int locationWebsite, int imageResourceId) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
         mLocationOpeningTime = locationOpeningTime;
@@ -54,26 +54,26 @@ public class Location {
      * @param locationOpeningTime is when the place is opened/when you can check-in or check-out
      * @param locationWebsite     is the description of the specified location
      */
-    public Location(String locationName, String locationAddress, String locationOpeningTime, String locationWebsite) {
+    public Location(int locationName, int locationAddress, int locationOpeningTime, int locationWebsite) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
         mLocationOpeningTime = locationOpeningTime;
         mLocationWebsite = locationWebsite;
     }
 
-    public String getLocationName() {
+    public int getLocationName() {
         return mLocationName;
     }
 
-    public String getLocationAddress() {
+    public int getLocationAddress() {
         return mLocationAddress;
     }
 
-    public String getLocationOpeningTime() {
+    public int getLocationOpeningTime() {
         return mLocationOpeningTime;
     }
 
-    public String getLocationWebsite() {
+    public int getLocationWebsite() {
         return mLocationWebsite;
     }
 
