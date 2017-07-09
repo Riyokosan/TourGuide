@@ -16,8 +16,8 @@
 
         <ImageView
             android:id="@+id/image"
-            android:layout_width="88dp"
-            android:layout_height="88dp" />
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height" />
 
         <RelativeLayout
             android:id="@+id/text_container"
@@ -38,21 +38,21 @@
                 tools:text="Big Ben" />
 
             <TextView
-                android:id="@+id/address"
+                android:id="@+id/location_address"
                 style="@style/Description"
                 android:layout_below="@id/location_name"
                 tools:text="Parliament Square, Westminster, St Margaret Street, London SW1A 0AA" />
 
             <TextView
-                android:id="@+id/opening_time"
+                android:id="@+id/location_opening_time"
                 style="@style/Description"
-                android:layout_below="@id/address"
+                android:layout_below="@id/location_address"
                 tools:text="Opening times: 6:00 - 20:00" />
 
             <TextView
-                android:id="@+id/website"
+                android:id="@+id/location_website"
                 style="@style/Description"
-                android:layout_below="@id/opening_time"
+                android:layout_below="@id/location_opening_time"
                 tools:text="http://www.londontown.com/" />
 
         </RelativeLayout>
