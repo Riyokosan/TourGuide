@@ -59,6 +59,13 @@
                 tools:text="http://www.londontown.com/" />
 
         </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#FFFFFF" />
+
     </RelativeLayout>
 
 </android.support.v7.widget.CardView>
